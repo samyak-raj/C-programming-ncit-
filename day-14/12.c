@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(){
-    int i, j, m, n;
+    int i, j, m, n, a[10][10];
     printf("Enter row and columns: ");
     scanf("%d%d", &m, &n);
     printf("Enter array elements: ");
@@ -23,7 +23,7 @@ int main(){
 
     for (i = 0; i < m; i++){
         for(j=0; j < n; j++){
-            if (i > j){
+            if (i < j){
                 printf("0\t");
             } else {
                 printf("%d\t", a[i][j]);
