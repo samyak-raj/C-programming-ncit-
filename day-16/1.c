@@ -1,7 +1,7 @@
 //wap to calculate factorial of a given number using function
 
 #include <stdio.h>
-
+int factorial(int);
 int main(){
     int n, fact;
     printf("Enter n: ");

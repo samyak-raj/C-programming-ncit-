@@ -1,7 +1,7 @@
 //wap to genereate fibonacci series upto n terms using function
 
 #include <stdio.h>
-
+void fibonacci(int);
 int main(){
     int n;
     printf("Enter n: ");
