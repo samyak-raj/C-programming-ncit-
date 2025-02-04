@@ -24,7 +24,7 @@ int main(){
     }
     printf("The sorted matrix is \n");
     for (i = 0; i < n; i++){
-        printf("%s,\t", name[i]);
+        printf("%s\n", name[i]);
     }
     return 0;
 }

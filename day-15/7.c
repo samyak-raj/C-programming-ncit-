@@ -21,10 +21,10 @@ int main(){
             com++;
         }
     }
-    printf("The number of vowels: %d\n", count);
-    printf("The number of semi-colon: %d\n", sc);
-    printf("The number of colon: %d\n", col);
-    printf("The number of space: %d\n", sp);
-    printf("The number of comma: %d\n", com);
+    printf("The no. of vowels: %d\n", count);
+    printf("The no. of semi-colon: %d\n", sc);
+    printf("The no. of colon: %d\n", col);
+    printf("The no. of space: %d\n", sp);
+    printf("The no. of comma: %d\n", com);
     return 0;
 }
