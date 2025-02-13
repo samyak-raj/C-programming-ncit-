@@ -1,16 +1,12 @@
-//wap to check wheter the given number is prime or not
-
+//wap to find if a number is prime or not using dma
 #include <stdio.h>
-void isPrime(int);
+#include <stdlib.h>
+
 int main(){
-    int n;
+    int i, n, *ptr;
     printf("Enter a number: ");
     scanf("%d", &n);
-    isPrime(n);
-    return 0;
-}
-void isPrime(int n){
-    int i;
+    ptr = (int *) calloc(n, sizeof(int));
     for (i = 2; i < n; i++){
         if (n % i == 0){
             printf("%d is not prime", n);
@@ -20,4 +16,6 @@ void isPrime(int n){
     if (i == n){
         printf("%d is prime", n);
     }
+    free(ptr);
+    return 0;
 }

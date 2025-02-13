@@ -11,6 +11,11 @@ int main(){
     for (i = 0; i < n; i++){
         scanf("%d", (ptr + i));
     }
+    printf("The array is \n");
+    for (i = 0; i < n; i++){
+        printf("%d\t", *(ptr + i));
+    }
+
     printf("The array in reverse order is \n");
     for (i = n - 1; i >=0; i--){
         printf("%d\t", *(ptr + i));

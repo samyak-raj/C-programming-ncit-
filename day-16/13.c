@@ -10,7 +10,7 @@ int main(){
     printf("Enter the radius of the circle: ");
     scanf("%d", &r);
     areaperi(r, &a, &p);
-    printf("Area of the circle: %f\nPerimeter of the circle: %f\n", a, p);
+    printf("Area of the circle: %.2f\nPerimeter of the circle: %.2f\n", a, p);
     return 0;
 }
 
