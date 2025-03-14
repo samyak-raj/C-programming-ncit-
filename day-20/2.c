@@ -17,14 +17,16 @@ int main(){
         printf("File cannot be opened");
         exit(0);
     }
+    
     for (i = 0; i < 2; i++){
         printf("\nEnter record of %d book\n", i+1);
         printf("Enter name: ");
-        scanf(" %[^\n]s", s[i].name);
+        gets(s[i].name);
         printf("Enter author: ");
-        scanf(" %[^\n]s", s[i].author);
+        gets(s[i].author);
         printf("Enter price: ");
         scanf("%d", &s[i].price);
+        getchar();
         fwrite(&s[i], sizeof(s[i]), 1, fp);
     }
     rewind(fp);
