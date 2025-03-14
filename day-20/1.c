@@ -23,7 +23,7 @@ int main(){
     for (i = 0; i < n; i++){
         printf("\nEnter record of %d student\n", i+1);
         printf("Enter name: ");
-        scanf("%s", s[i].name);
+        gets(s[i].name);
         printf("Enter roll: ");
         scanf("%d", &s[i].roll);
         printf("Enter age: ");
