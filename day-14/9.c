@@ -20,6 +20,7 @@ int main(){
         }
         printf("\n");
     }
+    //for individual rows
     for (i = 0; i < m; i++){
         sum = 0;
         for (j = 0; j < n; j++){
@@ -27,6 +28,7 @@ int main(){
         }
         printf("Sum of row %d: %d\n", i+1, sum);
     }
+    //for individual columns
     for (j = 0; j < n; j++){
         sum = 0;
         for (i = 0; i < m; i++){
